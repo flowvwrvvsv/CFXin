@@ -5,7 +5,7 @@
         <AllOutsideValue>18</AllOutsideValue>
         <LeftOutsideValue>18</LeftOutsideValue>
         <RightOutsideValue>18</RightOutsideValue>
-        <UpOutsideValue>0</UpOutsideValue>
+        <UpOutsideValue>9</UpOutsideValue>
         <DownOutsideValue>18</DownOutsideValue>
         <PlateHeightValue>18</PlateHeightValue>
         <DrawerGapValue>1.5</DrawerGapValue>
@@ -29,10 +29,10 @@
         <BraceType>1</BraceType>
         <BraceWidth>80</BraceWidth>
         <BraceNumber>1</BraceNumber>
-        <DrawerBoxDistanceDown>20</DrawerBoxDistanceDown>
+        <DrawerBoxDistanceDown>30</DrawerBoxDistanceDown>
         <DrawerBoxHeightComputeType>1</DrawerBoxHeightComputeType>
-        <DrawerBoxHeightComputeValue>90</DrawerBoxHeightComputeValue>
-        <DrawerDirectionType>1</DrawerDirectionType>
+        <DrawerBoxHeightComputeValue>110</DrawerBoxHeightComputeValue>
+        <DrawerDirectionType>0</DrawerDirectionType>
         <DrawerNumber>3</DrawerNumber>
         <DrawerHeightComputeType>0</DrawerHeightComputeType>
         <DrawerHeightValue>50</DrawerHeightValue>
@@ -167,8 +167,8 @@
         <ValuationType>1</ValuationType>
         <CostPrice>0</CostPrice>
         <SalePrice>0</SalePrice>
-        <DoorNumber>4</DoorNumber>
-        <SingleDoorType>1</SingleDoorType>
+        <DoorNumber>1</DoorNumber>
+        <SingleDoorType>3</SingleDoorType>
         <OddNumberDoorType>0</OddNumberDoorType>
         <EvenNumberDoorType>0</EvenNumberDoorType>
         <IsAddSidePlate>true</IsAddSidePlate>
