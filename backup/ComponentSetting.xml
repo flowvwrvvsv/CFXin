@@ -155,7 +155,7 @@
         <IsProductOpenDoor>true</IsProductOpenDoor>
         <DoorType>1</DoorType>
         <AllOutsideValue>18</AllOutsideValue>
-        <LeftOutsideValue>0</LeftOutsideValue>
+        <LeftOutsideValue>18</LeftOutsideValue>
         <RightOutsideValue>18</RightOutsideValue>
         <UpOutsideValue>18</UpOutsideValue>
         <DownOutsideValue>18</DownOutsideValue>
