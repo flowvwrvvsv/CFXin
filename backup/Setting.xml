@@ -261,7 +261,7 @@
         <RoofTexture>0e4c8667fef042168dd6a57838ff0d5b.jpg</RoofTexture>
         <WallThickness>200</WallThickness>
         <Light>
-            <SubLight Type="0" Color="#FFFFFF"/>
+            <SubLight Color="#FFFFFF" Type="0"/>
         </Light>
     </Room>
     <ShowComponent>
