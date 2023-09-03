@@ -3,21 +3,21 @@
     <DrawerSetting>
         <DrawerType>1</DrawerType>
         <AllOutsideValue>18</AllOutsideValue>
-        <LeftOutsideValue>18</LeftOutsideValue>
+        <LeftOutsideValue>9</LeftOutsideValue>
         <RightOutsideValue>18</RightOutsideValue>
-        <UpOutsideValue>9</UpOutsideValue>
+        <UpOutsideValue>18</UpOutsideValue>
         <DownOutsideValue>18</DownOutsideValue>
         <PlateHeightValue>18</PlateHeightValue>
         <DrawerGapValue>1.5</DrawerGapValue>
         <DrawerDistanceValue>3</DrawerDistanceValue>
         <DrawerFaceHeightValue>18</DrawerFaceHeightValue>
         <IsProduceDrawerFace>true</IsProduceDrawerFace>
-        <IsUseFrontPlate>true</IsUseFrontPlate>
+        <IsUseFrontPlate>false</IsUseFrontPlate>
         <BackPlateDistanceBack>0</BackPlateDistanceBack>
         <DepthComputeType>1</DepthComputeType>
         <DepthComputeValue>400</DepthComputeValue>
         <BasePlateType>1</BasePlateType>
-        <BasePlateHeight>9</BasePlateHeight>
+        <BasePlateHeight>5</BasePlateHeight>
         <BasePlateCoverType>1</BasePlateCoverType>
         <AllBasePlateValue>5</AllBasePlateValue>
         <LeftBasePlateValue>5</LeftBasePlateValue>
@@ -29,11 +29,11 @@
         <BraceType>1</BraceType>
         <BraceWidth>80</BraceWidth>
         <BraceNumber>1</BraceNumber>
-        <DrawerBoxDistanceDown>30</DrawerBoxDistanceDown>
+        <DrawerBoxDistanceDown>20</DrawerBoxDistanceDown>
         <DrawerBoxHeightComputeType>1</DrawerBoxHeightComputeType>
-        <DrawerBoxHeightComputeValue>110</DrawerBoxHeightComputeValue>
+        <DrawerBoxHeightComputeValue>100</DrawerBoxHeightComputeValue>
         <DrawerDirectionType>0</DrawerDirectionType>
-        <DrawerNumber>3</DrawerNumber>
+        <DrawerNumber>2</DrawerNumber>
         <DrawerHeightComputeType>0</DrawerHeightComputeType>
         <DrawerHeightValue>50</DrawerHeightValue>
         <NumberAveOrManualType>0</NumberAveOrManualType>
@@ -168,8 +168,8 @@
         <CostPrice>0</CostPrice>
         <SalePrice>0</SalePrice>
         <DoorNumber>1</DoorNumber>
-        <SingleDoorType>3</SingleDoorType>
-        <OddNumberDoorType>0</OddNumberDoorType>
+        <SingleDoorType>0</SingleDoorType>
+        <OddNumberDoorType>1</OddNumberDoorType>
         <EvenNumberDoorType>0</EvenNumberDoorType>
         <IsAddSidePlate>true</IsAddSidePlate>
         <SidePlateHeight>18</SidePlateHeight>
@@ -274,7 +274,7 @@
         <NoHandleModelName>下长条双斜边</NoHandleModelName>
         <ParamLists>
             <ParamModel>
-                <Id>26674496</Id>
+                <Id>27490089</Id>
                 <ManagerId>0</ManagerId>
                 <ParamName>宽度</ParamName>
                 <ParamShortName>[MLSKD]</ParamShortName>
@@ -283,7 +283,7 @@
                 <ParamStrValue></ParamStrValue>
             </ParamModel>
             <ParamModel>
-                <Id>26674497</Id>
+                <Id>27490090</Id>
                 <ManagerId>0</ManagerId>
                 <ParamName>外高</ParamName>
                 <ParamShortName>[MLSWG]</ParamShortName>
@@ -292,7 +292,7 @@
                 <ParamStrValue></ParamStrValue>
             </ParamModel>
             <ParamModel>
-                <Id>26674498</Id>
+                <Id>27490091</Id>
                 <ManagerId>0</ManagerId>
                 <ParamName>内高</ParamName>
                 <ParamShortName>[MLSNG]</ParamShortName>
@@ -301,7 +301,7 @@
                 <ParamStrValue></ParamStrValue>
             </ParamModel>
             <ParamModel>
-                <Id>26674499</Id>
+                <Id>27490092</Id>
                 <ManagerId>0</ManagerId>
                 <ParamName>距右</ParamName>
                 <ParamShortName>[MLSJY]</ParamShortName>
@@ -330,7 +330,7 @@
         <DoorLineId>6</DoorLineId>
         <ParamLists>
             <ParamModel>
-                <Id>26674530</Id>
+                <Id>27490123</Id>
                 <ManagerId>0</ManagerId>
                 <ParamName>距边</ParamName>
                 <ParamShortName>[JC]</ParamShortName>
@@ -339,7 +339,7 @@
                 <ParamStrValue></ParamStrValue>
             </ParamModel>
             <ParamModel>
-                <Id>26674531</Id>
+                <Id>27490124</Id>
                 <ManagerId>0</ManagerId>
                 <ParamName>距下</ParamName>
                 <ParamShortName>[JX]</ParamShortName>
@@ -348,7 +348,7 @@
                 <ParamStrValue></ParamStrValue>
             </ParamModel>
             <ParamModel>
-                <Id>26674532</Id>
+                <Id>27490125</Id>
                 <ManagerId>0</ManagerId>
                 <ParamName>弧高</ParamName>
                 <ParamShortName>[HG]</ParamShortName>
@@ -357,7 +357,7 @@
                 <ParamStrValue></ParamStrValue>
             </ParamModel>
             <ParamModel>
-                <Id>26674533</Id>
+                <Id>27490126</Id>
                 <ManagerId>0</ManagerId>
                 <ParamName>刀宽</ParamName>
                 <ParamShortName>[DK]</ParamShortName>

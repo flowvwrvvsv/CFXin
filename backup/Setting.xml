@@ -92,7 +92,7 @@
         <ExportModelType>0</ExportModelType>
         <ShowToolBarText>true</ShowToolBarText>
         <IsShowPerspectiveMode>false</IsShowPerspectiveMode>
-        <IsShowPureMode>true</IsShowPureMode>
+        <IsShowPureMode>false</IsShowPureMode>
         <CancelPhoneLoginNum>0</CancelPhoneLoginNum>
         <EachPageCount>20</EachPageCount>
         <CustomFieldCorredpond/>
@@ -157,7 +157,7 @@
         <SecondHolesiteName>通用方案(均分方案)</SecondHolesiteName>
     </BackBrace>
     <AngleModel>
-        <RotateAngle>56.5</RotateAngle>
+        <RotateAngle>28</RotateAngle>
         <IsLengthChange>true</IsLengthChange>
         <FrontReserve>0</FrontReserve>
         <BackReserve>0</BackReserve>
