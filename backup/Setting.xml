@@ -33,7 +33,7 @@
         <SlotInPlateDistance>5</SlotInPlateDistance>
         <SlotBackDistance>18</SlotBackDistance>
         <ThickPlateUseSlot>false</ThickPlateUseSlot>
-        <DefaultPlateThickness>0</DefaultPlateThickness>
+        <DefaultPlateThickness>18</DefaultPlateThickness>
         <SlotDepthIncrement>1</SlotDepthIncrement>
         <SlotWidthIncrement>0</SlotWidthIncrement>
     </DrawPlateSetting>
@@ -72,8 +72,8 @@
         <LockPanelAfterSelect>false</LockPanelAfterSelect>
         <ReportNotCueAgain>false</ReportNotCueAgain>
         <IntersectGridHkWidth>0.4</IntersectGridHkWidth>
-        <IntersectGridHkDepth>2</IntersectGridHkDepth>
-        <SelectPrintView>3</SelectPrintView>
+        <IntersectGridHkDepth>5</IntersectGridHkDepth>
+        <SelectPrintView>0,3</SelectPrintView>
         <PrintUseLogo>false</PrintUseLogo>
         <PrintQrCodeType>2</PrintQrCodeType>
         <Is3DPrintUseColor>true</Is3DPrintUseColor>
@@ -92,7 +92,7 @@
         <ExportModelType>0</ExportModelType>
         <ShowToolBarText>true</ShowToolBarText>
         <IsShowPerspectiveMode>false</IsShowPerspectiveMode>
-        <IsShowPureMode>false</IsShowPureMode>
+        <IsShowPureMode>true</IsShowPureMode>
         <CancelPhoneLoginNum>0</CancelPhoneLoginNum>
         <EachPageCount>20</EachPageCount>
         <CustomFieldCorredpond/>
@@ -112,7 +112,7 @@
         <WineType>2</WineType>
         <WinePlateHeight>18</WinePlateHeight>
         <WineBanding>1</WineBanding>
-        <WineGridNumber>7</WineGridNumber>
+        <WineGridNumber>3</WineGridNumber>
         <WineGridHeightNumber>3</WineGridHeightNumber>
         <WineBaseLength>true</WineBaseLength>
         <WineHkLength>0.5</WineHkLength>
@@ -157,7 +157,7 @@
         <SecondHolesiteName>通用方案(均分方案)</SecondHolesiteName>
     </BackBrace>
     <AngleModel>
-        <RotateAngle>28</RotateAngle>
+        <RotateAngle>0</RotateAngle>
         <IsLengthChange>true</IsLengthChange>
         <FrontReserve>0</FrontReserve>
         <BackReserve>0</BackReserve>
@@ -295,8 +295,8 @@
         <XxyMillingShow>false</XxyMillingShow>
     </ShowComponent>
     <AnalysisDialogSetting>
-        <AnalysisDialogWidth>398</AnalysisDialogWidth>
-        <AnalysisDialogHeight>385</AnalysisDialogHeight>
+        <AnalysisDialogWidth>765</AnalysisDialogWidth>
+        <AnalysisDialogHeight>566</AnalysisDialogHeight>
         <HideZeroPlate>true</HideZeroPlate>
         <HideContactNotHaveHole>true</HideContactNotHaveHole>
         <HideContactHasGap>true</HideContactHasGap>

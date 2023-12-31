@@ -2,11 +2,11 @@
 <OtherSetting>
     <DrawerSetting>
         <DrawerType>1</DrawerType>
-        <AllOutsideValue>18</AllOutsideValue>
-        <LeftOutsideValue>9</LeftOutsideValue>
-        <RightOutsideValue>18</RightOutsideValue>
-        <UpOutsideValue>18</UpOutsideValue>
-        <DownOutsideValue>18</DownOutsideValue>
+        <AllOutsideValue>-0.5</AllOutsideValue>
+        <LeftOutsideValue>-0.5</LeftOutsideValue>
+        <RightOutsideValue>-0.5</RightOutsideValue>
+        <UpOutsideValue>-0.5</UpOutsideValue>
+        <DownOutsideValue>-0.5</DownOutsideValue>
         <PlateHeightValue>18</PlateHeightValue>
         <DrawerGapValue>1.5</DrawerGapValue>
         <DrawerDistanceValue>3</DrawerDistanceValue>
@@ -17,7 +17,7 @@
         <DepthComputeType>1</DepthComputeType>
         <DepthComputeValue>400</DepthComputeValue>
         <BasePlateType>1</BasePlateType>
-        <BasePlateHeight>5</BasePlateHeight>
+        <BasePlateHeight>5.5</BasePlateHeight>
         <BasePlateCoverType>1</BasePlateCoverType>
         <AllBasePlateValue>5</AllBasePlateValue>
         <LeftBasePlateValue>5</LeftBasePlateValue>
@@ -29,11 +29,11 @@
         <BraceType>1</BraceType>
         <BraceWidth>80</BraceWidth>
         <BraceNumber>1</BraceNumber>
-        <DrawerBoxDistanceDown>20</DrawerBoxDistanceDown>
+        <DrawerBoxDistanceDown>30</DrawerBoxDistanceDown>
         <DrawerBoxHeightComputeType>1</DrawerBoxHeightComputeType>
-        <DrawerBoxHeightComputeValue>100</DrawerBoxHeightComputeValue>
-        <DrawerDirectionType>0</DrawerDirectionType>
-        <DrawerNumber>2</DrawerNumber>
+        <DrawerBoxHeightComputeValue>110</DrawerBoxHeightComputeValue>
+        <DrawerDirectionType>1</DrawerDirectionType>
+        <DrawerNumber>1</DrawerNumber>
         <DrawerHeightComputeType>0</DrawerHeightComputeType>
         <DrawerHeightValue>50</DrawerHeightValue>
         <NumberAveOrManualType>0</NumberAveOrManualType>
@@ -84,15 +84,15 @@
         <IsUseDrawerLock>false</IsUseDrawerLock>
         <DrawerLockType>0</DrawerLockType>
         <IsDrawerFaceDeepLockHole>true</IsDrawerFaceDeepLockHole>
-        <LockDiameter>20</LockDiameter>
-        <IsGenerateHole>true</IsGenerateHole>
+        <LockDiameter>17</LockDiameter>
+        <IsGenerateHole>false</IsGenerateHole>
         <HoleDiameter>5</HoleDiameter>
         <HoleDepth>2</HoleDepth>
         <HoleDistanceCenter>18</HoleDistanceCenter>
         <LockPosType>2</LockPosType>
         <DistanceLeft>25</DistanceLeft>
         <DistanceRight>20</DistanceRight>
-        <DistanceUp>25</DistanceUp>
+        <DistanceUp>21</DistanceUp>
         <IsOnlyFirstUseLock>true</IsOnlyFirstUseLock>
         <RodDepth>8</RodDepth>
         <RodWidth>18</RodWidth>
@@ -167,8 +167,8 @@
         <ValuationType>1</ValuationType>
         <CostPrice>0</CostPrice>
         <SalePrice>0</SalePrice>
-        <DoorNumber>1</DoorNumber>
-        <SingleDoorType>0</SingleDoorType>
+        <DoorNumber>3</DoorNumber>
+        <SingleDoorType>2</SingleDoorType>
         <OddNumberDoorType>1</OddNumberDoorType>
         <EvenNumberDoorType>0</EvenNumberDoorType>
         <IsAddSidePlate>true</IsAddSidePlate>
@@ -272,44 +272,7 @@
         <NoHandleShapeType>0</NoHandleShapeType>
         <NoHandleModelId>156</NoHandleModelId>
         <NoHandleModelName>下长条双斜边</NoHandleModelName>
-        <ParamLists>
-            <ParamModel>
-                <Id>27490089</Id>
-                <ManagerId>0</ManagerId>
-                <ParamName>宽度</ParamName>
-                <ParamShortName>[MLSKD]</ParamShortName>
-                <ParamValue>30</ParamValue>
-                <ParamType>0</ParamType>
-                <ParamStrValue></ParamStrValue>
-            </ParamModel>
-            <ParamModel>
-                <Id>27490090</Id>
-                <ManagerId>0</ManagerId>
-                <ParamName>外高</ParamName>
-                <ParamShortName>[MLSWG]</ParamShortName>
-                <ParamValue>300</ParamValue>
-                <ParamType>0</ParamType>
-                <ParamStrValue></ParamStrValue>
-            </ParamModel>
-            <ParamModel>
-                <Id>27490091</Id>
-                <ManagerId>0</ManagerId>
-                <ParamName>内高</ParamName>
-                <ParamShortName>[MLSNG]</ParamShortName>
-                <ParamValue>260</ParamValue>
-                <ParamType>0</ParamType>
-                <ParamStrValue></ParamStrValue>
-            </ParamModel>
-            <ParamModel>
-                <Id>27490092</Id>
-                <ManagerId>0</ManagerId>
-                <ParamName>距右</ParamName>
-                <ParamShortName>[MLSJY]</ParamShortName>
-                <ParamValue>300</ParamValue>
-                <ParamType>0</ParamType>
-                <ParamStrValue></ParamStrValue>
-            </ParamModel>
-        </ParamLists>
+        <ParamLists/>
     </OpenDoorNoHandle>
     <OpenDoorPath>
         <DoorLength>400</DoorLength>
@@ -325,47 +288,10 @@
         <IsUseDoorPath>false</IsUseDoorPath>
         <DoorProduceIndependent>true</DoorProduceIndependent>
         <IsBandingToZero>true</IsBandingToZero>
-        <DoorName>CYM-004-1</DoorName>
-        <DoorId>19</DoorId>
-        <DoorLineId>6</DoorLineId>
-        <ParamLists>
-            <ParamModel>
-                <Id>27490123</Id>
-                <ManagerId>0</ManagerId>
-                <ParamName>距边</ParamName>
-                <ParamShortName>[JC]</ParamShortName>
-                <ParamValue>60</ParamValue>
-                <ParamType>0</ParamType>
-                <ParamStrValue></ParamStrValue>
-            </ParamModel>
-            <ParamModel>
-                <Id>27490124</Id>
-                <ManagerId>0</ManagerId>
-                <ParamName>距下</ParamName>
-                <ParamShortName>[JX]</ParamShortName>
-                <ParamValue>60</ParamValue>
-                <ParamType>0</ParamType>
-                <ParamStrValue></ParamStrValue>
-            </ParamModel>
-            <ParamModel>
-                <Id>27490125</Id>
-                <ManagerId>0</ManagerId>
-                <ParamName>弧高</ParamName>
-                <ParamShortName>[HG]</ParamShortName>
-                <ParamValue>60</ParamValue>
-                <ParamType>0</ParamType>
-                <ParamStrValue></ParamStrValue>
-            </ParamModel>
-            <ParamModel>
-                <Id>27490126</Id>
-                <ManagerId>0</ManagerId>
-                <ParamName>刀宽</ParamName>
-                <ParamShortName>[DK]</ParamShortName>
-                <ParamValue>40</ParamValue>
-                <ParamType>0</ParamType>
-                <ParamStrValue></ParamStrValue>
-            </ParamModel>
-        </ParamLists>
+        <DoorName></DoorName>
+        <DoorId>0</DoorId>
+        <DoorLineId>0</DoorLineId>
+        <ParamLists/>
     </OpenDoorPath>
     <SlidingDoorPlateSetting>
         <IsProduceSlidingnDoor>true</IsProduceSlidingnDoor>
