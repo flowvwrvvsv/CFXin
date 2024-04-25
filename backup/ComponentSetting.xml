@@ -2,20 +2,20 @@
 <OtherSetting>
     <DrawerSetting>
         <DrawerType>1</DrawerType>
-        <AllOutsideValue>-0.5</AllOutsideValue>
-        <LeftOutsideValue>-0.5</LeftOutsideValue>
-        <RightOutsideValue>-0.5</RightOutsideValue>
-        <UpOutsideValue>-0.5</UpOutsideValue>
-        <DownOutsideValue>-0.5</DownOutsideValue>
+        <AllOutsideValue>18</AllOutsideValue>
+        <LeftOutsideValue>9</LeftOutsideValue>
+        <RightOutsideValue>18</RightOutsideValue>
+        <UpOutsideValue>0</UpOutsideValue>
+        <DownOutsideValue>0</DownOutsideValue>
         <PlateHeightValue>18</PlateHeightValue>
         <DrawerGapValue>1.5</DrawerGapValue>
         <DrawerDistanceValue>3</DrawerDistanceValue>
         <DrawerFaceHeightValue>18</DrawerFaceHeightValue>
         <IsProduceDrawerFace>true</IsProduceDrawerFace>
-        <IsUseFrontPlate>false</IsUseFrontPlate>
+        <IsUseFrontPlate>true</IsUseFrontPlate>
         <BackPlateDistanceBack>0</BackPlateDistanceBack>
         <DepthComputeType>1</DepthComputeType>
-        <DepthComputeValue>400</DepthComputeValue>
+        <DepthComputeValue>300</DepthComputeValue>
         <BasePlateType>1</BasePlateType>
         <BasePlateHeight>5.5</BasePlateHeight>
         <BasePlateCoverType>1</BasePlateCoverType>
@@ -29,11 +29,11 @@
         <BraceType>1</BraceType>
         <BraceWidth>80</BraceWidth>
         <BraceNumber>1</BraceNumber>
-        <DrawerBoxDistanceDown>30</DrawerBoxDistanceDown>
+        <DrawerBoxDistanceDown>20</DrawerBoxDistanceDown>
         <DrawerBoxHeightComputeType>1</DrawerBoxHeightComputeType>
         <DrawerBoxHeightComputeValue>110</DrawerBoxHeightComputeValue>
         <DrawerDirectionType>1</DrawerDirectionType>
-        <DrawerNumber>1</DrawerNumber>
+        <DrawerNumber>2</DrawerNumber>
         <DrawerHeightComputeType>0</DrawerHeightComputeType>
         <DrawerHeightValue>50</DrawerHeightValue>
         <NumberAveOrManualType>0</NumberAveOrManualType>
@@ -156,7 +156,7 @@
         <DoorType>1</DoorType>
         <AllOutsideValue>18</AllOutsideValue>
         <LeftOutsideValue>18</LeftOutsideValue>
-        <RightOutsideValue>18</RightOutsideValue>
+        <RightOutsideValue>0</RightOutsideValue>
         <UpOutsideValue>18</UpOutsideValue>
         <DownOutsideValue>18</DownOutsideValue>
         <DoorPlateHeightValue>18</DoorPlateHeightValue>
@@ -167,8 +167,8 @@
         <ValuationType>1</ValuationType>
         <CostPrice>0</CostPrice>
         <SalePrice>0</SalePrice>
-        <DoorNumber>3</DoorNumber>
-        <SingleDoorType>2</SingleDoorType>
+        <DoorNumber>2</DoorNumber>
+        <SingleDoorType>1</SingleDoorType>
         <OddNumberDoorType>1</OddNumberDoorType>
         <EvenNumberDoorType>0</EvenNumberDoorType>
         <IsAddSidePlate>true</IsAddSidePlate>

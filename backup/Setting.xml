@@ -73,9 +73,9 @@
         <ReportNotCueAgain>false</ReportNotCueAgain>
         <IntersectGridHkWidth>0.4</IntersectGridHkWidth>
         <IntersectGridHkDepth>5</IntersectGridHkDepth>
-        <SelectPrintView>0,3</SelectPrintView>
+        <SelectPrintView>1,2,0,3</SelectPrintView>
         <PrintUseLogo>false</PrintUseLogo>
-        <PrintQrCodeType>2</PrintQrCodeType>
+        <PrintQrCodeType>0</PrintQrCodeType>
         <Is3DPrintUseColor>true</Is3DPrintUseColor>
         <MinSlotDistanceValue>0</MinSlotDistanceValue>
         <ThroughSlotDistanceValue>0</ThroughSlotDistanceValue>
@@ -92,7 +92,7 @@
         <ExportModelType>0</ExportModelType>
         <ShowToolBarText>true</ShowToolBarText>
         <IsShowPerspectiveMode>false</IsShowPerspectiveMode>
-        <IsShowPureMode>true</IsShowPureMode>
+        <IsShowPureMode>false</IsShowPureMode>
         <CancelPhoneLoginNum>0</CancelPhoneLoginNum>
         <EachPageCount>20</EachPageCount>
         <CustomFieldCorredpond/>
@@ -143,7 +143,7 @@
             <BraceParam>
                 <ParamName>背板厚</ParamName>
                 <BraceShortParam>[BBH]</BraceShortParam>
-                <BraceParamValue>5</BraceParamValue>
+                <BraceParamValue>5.5</BraceParamValue>
             </BraceParam>
             <BraceParam>
                 <ParamName>后拉条宽度</ParamName>
@@ -157,7 +157,7 @@
         <SecondHolesiteName>通用方案(均分方案)</SecondHolesiteName>
     </BackBrace>
     <AngleModel>
-        <RotateAngle>0</RotateAngle>
+        <RotateAngle>-20</RotateAngle>
         <IsLengthChange>true</IsLengthChange>
         <FrontReserve>0</FrontReserve>
         <BackReserve>0</BackReserve>
@@ -195,7 +195,7 @@
         <ExportTotalPrice>true</ExportTotalPrice>
         <IsExportModel>true</IsExportModel>
         <ExportHardware>false</ExportHardware>
-        <IsExportTotalDoor>false</IsExportTotalDoor>
+        <IsExportTotalDoor>true</IsExportTotalDoor>
         <TotalDoorAddRoom>false</TotalDoorAddRoom>
         <TotalDoorAddHinge>false</TotalDoorAddHinge>
         <TotalDoorAddPrice>false</TotalDoorAddPrice>
@@ -238,7 +238,7 @@
         <Name></Name>
         <Password></Password>
         <PhoneNumber>LSQ6MTE1OzImLyo=</PhoneNumber>
-        <PhoneEncryptCode></PhoneEncryptCode>
+        <PhoneEncryptCode>eWVAamNHamlZdFRIRWZObkF6UDsvZX5aeHg4VnhfdEJ3bklDfWVob3pdJU82aGk/eX1xTmNla1pzQzY7ZFJ0fW9mWUswT3d3dEx7U3NdWUVzRXtYZVxPWX1kVmBzRWtTP0Z9e2RTKFM5VlM8Jk5MXiNNRFk0W2dlYkRcWWlNVTw1S09XNFlTTGZEV18/VEtcdUBCW2ZgVUJ4RHRJM0FSUyVEdG8zVEhIbldDTiF4OV5vRXlnPU5yXmVgMzVlVHhLalh9SmJfZnxzT1VncF1yWjpWe1lqRXJbaF1JTGNiW3VnW0VDJkN6eyhSY2w0WXxPNUxDUm5DaFViaG1ucXphZnFMSFkrSW07IVFMUXhedTB2R05DMlZZXmNdd1NuU0lFY0V9V3J2QFB5R2pEdUleLXtKbUEyb0VbLUtTY39LcFJ3S2FDZEQvPC9VejJ3Mlk5L2l3Zk5AajxsYENoTFRIcGpVfCtvUUxPQXVMamxNZHQzSE9tZF9bSXNWYnhPQFNJWVJEVEooWkh9JVVRd1Nqc2tFSnlhQFBya1BnZWFWaw==</PhoneEncryptCode>
         <RemoteServerFolder></RemoteServerFolder>
         <RemoteDogId></RemoteDogId>
         <WebUserName></WebUserName>
@@ -261,7 +261,7 @@
         <RoofTexture>0e4c8667fef042168dd6a57838ff0d5b.jpg</RoofTexture>
         <WallThickness>200</WallThickness>
         <Light>
-            <SubLight Color="#FFFFFF" Type="0"/>
+            <SubLight Type="0" Color="#FFFFFF"/>
         </Light>
     </Room>
     <ShowComponent>
@@ -295,8 +295,8 @@
         <XxyMillingShow>false</XxyMillingShow>
     </ShowComponent>
     <AnalysisDialogSetting>
-        <AnalysisDialogWidth>765</AnalysisDialogWidth>
-        <AnalysisDialogHeight>566</AnalysisDialogHeight>
+        <AnalysisDialogWidth>763</AnalysisDialogWidth>
+        <AnalysisDialogHeight>495</AnalysisDialogHeight>
         <HideZeroPlate>true</HideZeroPlate>
         <HideContactNotHaveHole>true</HideContactNotHaveHole>
         <HideContactHasGap>true</HideContactHasGap>
