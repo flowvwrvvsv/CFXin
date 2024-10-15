@@ -2,20 +2,21 @@
 <OtherSetting>
     <DrawerSetting>
         <DrawerType>1</DrawerType>
-        <AllOutsideValue>18</AllOutsideValue>
-        <LeftOutsideValue>9</LeftOutsideValue>
-        <RightOutsideValue>18</RightOutsideValue>
-        <UpOutsideValue>0</UpOutsideValue>
-        <DownOutsideValue>0</DownOutsideValue>
-        <PlateHeightValue>18</PlateHeightValue>
+        <AllOutsideValue>-0.5</AllOutsideValue>
+        <LeftOutsideValue>-0.5</LeftOutsideValue>
+        <RightOutsideValue>-0.5</RightOutsideValue>
+        <UpOutsideValue>-0.5</UpOutsideValue>
+        <DownOutsideValue>-0.5</DownOutsideValue>
+        <PlateHeightValue>15</PlateHeightValue>
         <DrawerGapValue>1.5</DrawerGapValue>
         <DrawerDistanceValue>3</DrawerDistanceValue>
-        <DrawerFaceHeightValue>18</DrawerFaceHeightValue>
+        <DrawerFaceHeightValue>15</DrawerFaceHeightValue>
         <IsProduceDrawerFace>true</IsProduceDrawerFace>
-        <IsUseFrontPlate>true</IsUseFrontPlate>
+        <IsUseFrontPlate>false</IsUseFrontPlate>
         <BackPlateDistanceBack>0</BackPlateDistanceBack>
+        <FrontBackPlateDistanceDwon>0</FrontBackPlateDistanceDwon>
         <DepthComputeType>1</DepthComputeType>
-        <DepthComputeValue>300</DepthComputeValue>
+        <DepthComputeValue>400</DepthComputeValue>
         <BasePlateType>1</BasePlateType>
         <BasePlateHeight>5.5</BasePlateHeight>
         <BasePlateCoverType>1</BasePlateCoverType>
@@ -29,11 +30,11 @@
         <BraceType>1</BraceType>
         <BraceWidth>80</BraceWidth>
         <BraceNumber>1</BraceNumber>
-        <DrawerBoxDistanceDown>20</DrawerBoxDistanceDown>
+        <DrawerBoxDistanceDown>10</DrawerBoxDistanceDown>
         <DrawerBoxHeightComputeType>1</DrawerBoxHeightComputeType>
-        <DrawerBoxHeightComputeValue>110</DrawerBoxHeightComputeValue>
-        <DrawerDirectionType>1</DrawerDirectionType>
-        <DrawerNumber>2</DrawerNumber>
+        <DrawerBoxHeightComputeValue>90</DrawerBoxHeightComputeValue>
+        <DrawerDirectionType>0</DrawerDirectionType>
+        <DrawerNumber>1</DrawerNumber>
         <DrawerHeightComputeType>0</DrawerHeightComputeType>
         <DrawerHeightValue>50</DrawerHeightValue>
         <NumberAveOrManualType>0</NumberAveOrManualType>
@@ -59,14 +60,15 @@
         <UseDoubleSidePlate>false</UseDoubleSidePlate>
     </DrawerSetting>
     <DrawerSlideway>
+        <ConfigSlideName>当前配置</ConfigSlideName>
         <SlideName>三节滑轨</SlideName>
         <SlideLengthAdapter>true</SlideLengthAdapter>
         <SlideLength>400</SlideLength>
-        <SlideWidth>13.2</SlideWidth>
+        <SlideWidth>13</SlideWidth>
         <SlideHeight>40</SlideHeight>
         <CostPrice>0</CostPrice>
         <SalePrice>0</SalePrice>
-        <ZPosComputeType>2</ZPosComputeType>
+        <ZPosComputeType>1</ZPosComputeType>
         <DistanceDownValue>0</DistanceDownValue>
         <IsGenerateHole>true</IsGenerateHole>
         <HoleDiameter>5</HoleDiameter>
@@ -81,6 +83,7 @@
         <Fittings/>
     </DrawerSlideway>
     <DrawerLock>
+        <ConfigDrawerLockName>当前配置</ConfigDrawerLockName>
         <IsUseDrawerLock>false</IsUseDrawerLock>
         <DrawerLockType>0</DrawerLockType>
         <IsDrawerFaceDeepLockHole>true</IsDrawerFaceDeepLockHole>
@@ -107,6 +110,7 @@
         <Fittings/>
     </DrawerLock>
     <DrawerHandle>
+        <ConfigHandleName>当前配置</ConfigHandleName>
         <IsUseHandle>false</IsUseHandle>
         <HandleType>0</HandleType>
         <HandleName></HandleName>
@@ -149,6 +153,7 @@
         <DoorName></DoorName>
         <DoorId>0</DoorId>
         <DoorLineId>0</DoorLineId>
+        <ImportDoorType>1</ImportDoorType>
         <ParamLists/>
     </DrawerPathModel>
     <OpenDoorPlateSetting>
@@ -156,7 +161,7 @@
         <DoorType>1</DoorType>
         <AllOutsideValue>18</AllOutsideValue>
         <LeftOutsideValue>18</LeftOutsideValue>
-        <RightOutsideValue>0</RightOutsideValue>
+        <RightOutsideValue>18</RightOutsideValue>
         <UpOutsideValue>18</UpOutsideValue>
         <DownOutsideValue>18</DownOutsideValue>
         <DoorPlateHeightValue>18</DoorPlateHeightValue>
@@ -167,12 +172,12 @@
         <ValuationType>1</ValuationType>
         <CostPrice>0</CostPrice>
         <SalePrice>0</SalePrice>
-        <DoorNumber>2</DoorNumber>
+        <DoorNumber>3</DoorNumber>
         <SingleDoorType>1</SingleDoorType>
-        <OddNumberDoorType>1</OddNumberDoorType>
+        <OddNumberDoorType>0</OddNumberDoorType>
         <EvenNumberDoorType>0</EvenNumberDoorType>
         <IsAddSidePlate>true</IsAddSidePlate>
-        <SidePlateHeight>18</SidePlateHeight>
+        <SidePlateHeight>15</SidePlateHeight>
         <IsSidePlateAdapter>true</IsSidePlateAdapter>
         <SidePlateDepth>100</SidePlateDepth>
         <SidePlateHolesiteName>通用方案(均分方案)</SidePlateHolesiteName>
@@ -214,6 +219,7 @@
                 <Number>5</Number>
             </HingePos>
         </HingePoses>
+        <ConfigHingeName>当前配置</ConfigHingeName>
         <IsUseHingeModel>false</IsUseHingeModel>
         <IsGenerateHole>false</IsGenerateHole>
         <HoleDiameter>5</HoleDiameter>
@@ -234,12 +240,14 @@
         <SalePrice>2.5</SalePrice>
     </OpenDoorHingeSetting>
     <OpenDoorStraightSetting>
+        <ConfigStraightName>当前配置</ConfigStraightName>
         <IsUseStraightLine>false</IsUseStraightLine>
         <StraightLineWidth>10</StraightLineWidth>
         <StraightLineDepth>11</StraightLineDepth>
         <StraightLineDistanceBorder>300</StraightLineDistanceBorder>
     </OpenDoorStraightSetting>
     <OpenDoorHandle>
+        <ConfigHandleName>当前配置</ConfigHandleName>
         <IsUseHandle>false</IsUseHandle>
         <HandleType>0</HandleType>
         <HandleName></HandleName>
@@ -291,6 +299,7 @@
         <DoorName></DoorName>
         <DoorId>0</DoorId>
         <DoorLineId>0</DoorLineId>
+        <ImportDoorType>1</ImportDoorType>
         <ParamLists/>
     </OpenDoorPath>
     <SlidingDoorPlateSetting>
@@ -332,6 +341,7 @@
         <DoorName></DoorName>
         <DoorId>-1</DoorId>
         <DoorLineId>-1</DoorLineId>
+        <ImportDoorType>1</ImportDoorType>
         <ParamLists/>
     </SlideDoorPath>
     <PantDrawerSetting>
@@ -348,6 +358,7 @@
         <IsProduceDrawerFace>true</IsProduceDrawerFace>
         <IsUseFrontPlate>false</IsUseFrontPlate>
         <BackPlateDistanceBack>0</BackPlateDistanceBack>
+        <FrontBackPlateDistanceDwon>0</FrontBackPlateDistanceDwon>
         <DepthComputeType>1</DepthComputeType>
         <DepthComputeValue>20</DepthComputeValue>
         <DrawerHeight>100</DrawerHeight>
@@ -370,6 +381,7 @@
         <UseDoubleSidePlate>false</UseDoubleSidePlate>
     </PantDrawerSetting>
     <PantDrawerSlideway>
+        <ConfigSlideName>当前配置</ConfigSlideName>
         <SlideName>三节滑轨</SlideName>
         <SlideLengthAdapter>true</SlideLengthAdapter>
         <SlideLength>350</SlideLength>
@@ -415,6 +427,7 @@
         <IsProduceDrawerFace>true</IsProduceDrawerFace>
         <IsUseFrontPlate>false</IsUseFrontPlate>
         <BackPlateDistanceBack>0</BackPlateDistanceBack>
+        <FrontBackPlateDistanceDwon>0</FrontBackPlateDistanceDwon>
         <DepthComputeType>0</DepthComputeType>
         <DepthComputeValue>30</DepthComputeValue>
         <DrawerHeight>90</DrawerHeight>
@@ -456,6 +469,7 @@
         <GridHkDepth>3</GridHkDepth>
     </GridDrawerSetting>
     <GridDrawerSlideway>
+        <ConfigSlideName>当前配置</ConfigSlideName>
         <SlideName>三节滑轨</SlideName>
         <SlideLengthAdapter>true</SlideLengthAdapter>
         <SlideLength>350</SlideLength>
@@ -494,6 +508,7 @@
         <DoorName>CYM-001-4</DoorName>
         <DoorId>5</DoorId>
         <DoorLineId>3</DoorLineId>
+        <ImportDoorType>1</ImportDoorType>
         <ParamLists>
             <ParamModel>
                 <Id>3</Id>
@@ -549,6 +564,15 @@
         <BackEdgeHolesiteName>通用方案</BackEdgeHolesiteName>
         <BackEdgeHolesiteId>0</BackEdgeHolesiteId>
     </ArcSkirting>
+    <ArcPlate>
+        <OuterInnerIndex>0</OuterInnerIndex>
+        <PlateHeight>800</PlateHeight>
+        <PlateThickness>18</PlateThickness>
+        <SlotDepth>12</SlotDepth>
+        <SlotWidth>6</SlotWidth>
+        <EdgeWidth>6</EdgeWidth>
+        <AllBandingValue>1</AllBandingValue>
+    </ArcPlate>
     <KjlSetting>
         <KjlDrawerSetting>
             <KjlDrawerOtherSetting>
@@ -573,6 +597,7 @@
                     <IsDefault>true</IsDefault>
                     <UseNameList></UseNameList>
                     <DrawerSlideway>
+                        <ConfigSlideName>当前配置</ConfigSlideName>
                         <SlideName>三节滑轨</SlideName>
                         <SlideLengthAdapter>false</SlideLengthAdapter>
                         <SlideLength>300</SlideLength>
@@ -603,6 +628,7 @@
                     <IsDefault>true</IsDefault>
                     <UseNameList></UseNameList>
                     <DrawerLock>
+                        <ConfigDrawerLockName>当前配置</ConfigDrawerLockName>
                         <IsUseDrawerLock>true</IsUseDrawerLock>
                         <DrawerLockType>0</DrawerLockType>
                         <IsDrawerFaceDeepLockHole>true</IsDrawerFaceDeepLockHole>
@@ -637,6 +663,7 @@
                     <IsDefault>true</IsDefault>
                     <UseNameList></UseNameList>
                     <Handle>
+                        <ConfigHandleName>当前配置</ConfigHandleName>
                         <IsUseHandle>true</IsUseHandle>
                         <HandleType>0</HandleType>
                         <HandleName></HandleName>
@@ -671,6 +698,7 @@
             <KjlXsDoorIndenpendent>false</KjlXsDoorIndenpendent>
             <KjlXsDoorTotalShow>true</KjlXsDoorTotalShow>
             <KjlDoorType1AsDoor>false</KjlDoorType1AsDoor>
+            <KjlDoorNameUseTotal>true</KjlDoorNameUseTotal>
             <KjlDoorHingeSettings>
                 <KjlUse>false</KjlUse>
                 <KjlHingeSetting>
@@ -708,6 +736,7 @@
                                 <Number>5</Number>
                             </HingePos>
                         </HingePoses>
+                        <ConfigHingeName>当前配置</ConfigHingeName>
                         <IsUseHingeModel>true</IsUseHingeModel>
                         <IsGenerateHole>true</IsGenerateHole>
                         <HoleDiameter>5</HoleDiameter>
@@ -736,6 +765,7 @@
                     <IsDefault>true</IsDefault>
                     <UseNameList></UseNameList>
                     <Handle>
+                        <ConfigHandleName>当前配置</ConfigHandleName>
                         <IsUseHandle>true</IsUseHandle>
                         <HandleType>0</HandleType>
                         <HandleName></HandleName>
@@ -765,4 +795,473 @@
             </KjlDoorHandleSettings>
         </KjlDoorSetting>
     </KjlSetting>
+    <ImportSetting>
+        <ImportDoorHingeSettings>
+            <KjlHingeSetting>
+                <CategoryName>通用配置</CategoryName>
+                <IsDefault>true</IsDefault>
+                <UseNameList></UseNameList>
+                <Hinge>
+                    <HingePoses>
+                        <HingePos>
+                            <DistanceDown>120</DistanceDown>
+                            <DistanceUp>120</DistanceUp>
+                            <StartPos>0</StartPos>
+                            <EndPos>1600</EndPos>
+                            <Number>2</Number>
+                        </HingePos>
+                        <HingePos>
+                            <DistanceDown>120</DistanceDown>
+                            <DistanceUp>120</DistanceUp>
+                            <StartPos>1600</StartPos>
+                            <EndPos>2000</EndPos>
+                            <Number>3</Number>
+                        </HingePos>
+                        <HingePos>
+                            <DistanceDown>120</DistanceDown>
+                            <DistanceUp>120</DistanceUp>
+                            <StartPos>2000</StartPos>
+                            <EndPos>2400</EndPos>
+                            <Number>4</Number>
+                        </HingePos>
+                        <HingePos>
+                            <DistanceDown>120</DistanceDown>
+                            <DistanceUp>120</DistanceUp>
+                            <StartPos>2400</StartPos>
+                            <EndPos>100000</EndPos>
+                            <Number>5</Number>
+                        </HingePos>
+                    </HingePoses>
+                    <ConfigHingeName>当前配置</ConfigHingeName>
+                    <IsUseHingeModel>false</IsUseHingeModel>
+                    <IsGenerateHole>false</IsGenerateHole>
+                    <HoleDiameter>5</HoleDiameter>
+                    <HoleDepth>2</HoleDepth>
+                    <SideDistanceFront>23</SideDistanceFront>
+                    <SideHorizonDistance>14</SideHorizonDistance>
+                    <SideVerticalDistance>32</SideVerticalDistance>
+                    <IsGenerateBigHole>false</IsGenerateBigHole>
+                    <BigCircleDiameter>35</BigCircleDiameter>
+                    <BigCircleDepth>11.5</BigCircleDepth>
+                    <BigCircelDistance>3</BigCircelDistance>
+                    <IsGenerateDoorHole>false</IsGenerateDoorHole>
+                    <DoorHoleDiameter>5</DoorHoleDiameter>
+                    <DoorHoleDepth>1</DoorHoleDepth>
+                    <PosHoleDistance>48</PosHoleDistance>
+                    <PosHoleDistanceCircle>0</PosHoleDistanceCircle>
+                    <CostPrice>2</CostPrice>
+                    <SalePrice>2.5</SalePrice>
+                </Hinge>
+            </KjlHingeSetting>
+        </ImportDoorHingeSettings>
+        <ImportStraightLineSettings>
+            <KjlStraightLineSetting>
+                <CategoryName>通用配置</CategoryName>
+                <IsDefault>true</IsDefault>
+                <UseNameList></UseNameList>
+                <StraightLine>
+                    <ConfigStraightName>当前配置</ConfigStraightName>
+                    <IsUseStraightLine>false</IsUseStraightLine>
+                    <StraightLineWidth>10</StraightLineWidth>
+                    <StraightLineDepth>11</StraightLineDepth>
+                    <StraightLineDistanceBorder>300</StraightLineDistanceBorder>
+                </StraightLine>
+            </KjlStraightLineSetting>
+        </ImportStraightLineSettings>
+    </ImportSetting>
+    <TotalSetting>
+        <TotalDoorHingeSettings>
+            <KjlHingeSetting>
+                <CategoryName>当前配置</CategoryName>
+                <IsDefault>true</IsDefault>
+                <UseNameList></UseNameList>
+                <Hinge>
+                    <HingePoses>
+                        <HingePos>
+                            <DistanceDown>120</DistanceDown>
+                            <DistanceUp>120</DistanceUp>
+                            <StartPos>0</StartPos>
+                            <EndPos>1600</EndPos>
+                            <Number>2</Number>
+                        </HingePos>
+                        <HingePos>
+                            <DistanceDown>120</DistanceDown>
+                            <DistanceUp>120</DistanceUp>
+                            <StartPos>1600</StartPos>
+                            <EndPos>2000</EndPos>
+                            <Number>3</Number>
+                        </HingePos>
+                        <HingePos>
+                            <DistanceDown>120</DistanceDown>
+                            <DistanceUp>120</DistanceUp>
+                            <StartPos>2000</StartPos>
+                            <EndPos>2400</EndPos>
+                            <Number>4</Number>
+                        </HingePos>
+                        <HingePos>
+                            <DistanceDown>120</DistanceDown>
+                            <DistanceUp>120</DistanceUp>
+                            <StartPos>2400</StartPos>
+                            <EndPos>100000</EndPos>
+                            <Number>5</Number>
+                        </HingePos>
+                    </HingePoses>
+                    <ConfigHingeName>当前配置</ConfigHingeName>
+                    <IsUseHingeModel>false</IsUseHingeModel>
+                    <IsGenerateHole>false</IsGenerateHole>
+                    <HoleDiameter>5</HoleDiameter>
+                    <HoleDepth>2</HoleDepth>
+                    <SideDistanceFront>23</SideDistanceFront>
+                    <SideHorizonDistance>14</SideHorizonDistance>
+                    <SideVerticalDistance>32</SideVerticalDistance>
+                    <IsGenerateBigHole>false</IsGenerateBigHole>
+                    <BigCircleDiameter>35</BigCircleDiameter>
+                    <BigCircleDepth>11.5</BigCircleDepth>
+                    <BigCircelDistance>3</BigCircelDistance>
+                    <IsGenerateDoorHole>false</IsGenerateDoorHole>
+                    <DoorHoleDiameter>5</DoorHoleDiameter>
+                    <DoorHoleDepth>1</DoorHoleDepth>
+                    <PosHoleDistance>48</PosHoleDistance>
+                    <PosHoleDistanceCircle>0</PosHoleDistanceCircle>
+                    <CostPrice>2</CostPrice>
+                    <SalePrice>2.5</SalePrice>
+                </Hinge>
+            </KjlHingeSetting>
+        </TotalDoorHingeSettings>
+        <TotalDoorStraightLineSettings>
+            <KjlStraightLineSetting>
+                <CategoryName>当前配置</CategoryName>
+                <IsDefault>true</IsDefault>
+                <UseNameList></UseNameList>
+                <StraightLine>
+                    <ConfigStraightName>当前配置</ConfigStraightName>
+                    <IsUseStraightLine>false</IsUseStraightLine>
+                    <StraightLineWidth>10</StraightLineWidth>
+                    <StraightLineDepth>11</StraightLineDepth>
+                    <StraightLineDistanceBorder>300</StraightLineDistanceBorder>
+                </StraightLine>
+            </KjlStraightLineSetting>
+        </TotalDoorStraightLineSettings>
+        <TotalDoorHandleSettings>
+            <KjlHandleSetting>
+                <CategoryName>当前配置</CategoryName>
+                <IsDefault>true</IsDefault>
+                <UseNameList></UseNameList>
+                <Handle>
+                    <ConfigHandleName>当前配置</ConfigHandleName>
+                    <IsUseHandle>false</IsUseHandle>
+                    <HandleType>0</HandleType>
+                    <HandleName></HandleName>
+                    <HorizonPosType>2</HorizonPosType>
+                    <HorizonPosValue>40</HorizonPosValue>
+                    <VerticalPosType>2</VerticalPosType>
+                    <VerticalPosValue>80</VerticalPosValue>
+                    <IsGenerateHole>true</IsGenerateHole>
+                    <HoleDiameter>5</HoleDiameter>
+                    <HoleDepth>18</HoleDepth>
+                    <HandleHoleType>2</HandleHoleType>
+                    <DoubleHoleDistance>96</DoubleHoleDistance>
+                    <SlotHandleType>1</SlotHandleType>
+                    <SlotWidth>15.5</SlotWidth>
+                    <SlotHeight>92</SlotHeight>
+                    <SlotDepth>18</SlotDepth>
+                    <IsHoleInSlotMid>true</IsHoleInSlotMid>
+                    <HoleDistanceSlotValue>10</HoleDistanceSlotValue>
+                    <IsHoleInSlotHorizonMid>true</IsHoleInSlotHorizonMid>
+                    <HoleDistanceSlotHorizonValue>10</HoleDistanceSlotHorizonValue>
+                    <ValuationType>1</ValuationType>
+                    <CostPrice>0</CostPrice>
+                    <SalePrice>0</SalePrice>
+                    <Fittings/>
+                </Handle>
+            </KjlHandleSetting>
+        </TotalDoorHandleSettings>
+        <TotalDrawerHandleSettings>
+            <KjlHandleSetting>
+                <CategoryName>当前配置</CategoryName>
+                <IsDefault>true</IsDefault>
+                <UseNameList></UseNameList>
+                <Handle>
+                    <ConfigHandleName>当前配置</ConfigHandleName>
+                    <IsUseHandle>false</IsUseHandle>
+                    <HandleType>0</HandleType>
+                    <HandleName></HandleName>
+                    <HorizonPosType>0</HorizonPosType>
+                    <HorizonPosValue>10</HorizonPosValue>
+                    <VerticalPosType>1</VerticalPosType>
+                    <VerticalPosValue>60</VerticalPosValue>
+                    <IsGenerateHole>true</IsGenerateHole>
+                    <HoleDiameter>5</HoleDiameter>
+                    <HoleDepth>17</HoleDepth>
+                    <HandleHoleType>1</HandleHoleType>
+                    <DoubleHoleDistance>96</DoubleHoleDistance>
+                    <SlotHandleType>1</SlotHandleType>
+                    <SlotWidth>100</SlotWidth>
+                    <SlotHeight>30</SlotHeight>
+                    <SlotDepth>6</SlotDepth>
+                    <IsHoleInSlotMid>true</IsHoleInSlotMid>
+                    <HoleDistanceSlotValue>10</HoleDistanceSlotValue>
+                    <IsHoleInSlotHorizonMid>true</IsHoleInSlotHorizonMid>
+                    <HoleDistanceSlotHorizonValue>10</HoleDistanceSlotHorizonValue>
+                    <ValuationType>1</ValuationType>
+                    <CostPrice>0</CostPrice>
+                    <SalePrice>0</SalePrice>
+                    <Fittings/>
+                </Handle>
+            </KjlHandleSetting>
+        </TotalDrawerHandleSettings>
+        <TotalDrawerSlideList>
+            <KjlDrawerSlideWaySetting>
+                <CategoryName>当前配置</CategoryName>
+                <IsDefault>true</IsDefault>
+                <UseNameList></UseNameList>
+                <DrawerSlideway>
+                    <ConfigSlideName>当前配置</ConfigSlideName>
+                    <SlideName>三节滑轨</SlideName>
+                    <SlideLengthAdapter>true</SlideLengthAdapter>
+                    <SlideLength>400</SlideLength>
+                    <SlideWidth>13</SlideWidth>
+                    <SlideHeight>40</SlideHeight>
+                    <CostPrice>0</CostPrice>
+                    <SalePrice>0</SalePrice>
+                    <ZPosComputeType>1</ZPosComputeType>
+                    <DistanceDownValue>0</DistanceDownValue>
+                    <IsGenerateHole>true</IsGenerateHole>
+                    <HoleDiameter>5</HoleDiameter>
+                    <HoleDepth>1</HoleDepth>
+                    <FrontHoleDistanceFront>36</FrontHoleDistanceFront>
+                    <IsBackHoleDistanceBack>true</IsBackHoleDistanceBack>
+                    <BackHoleDistanceBack>40</BackHoleDistanceBack>
+                    <IsOuterHoleDiffInner>true</IsOuterHoleDiffInner>
+                    <OuterFrontHoleDistanceFront>68</OuterFrontHoleDistanceFront>
+                    <IsOuterBackHoleDistanceBack>true</IsOuterBackHoleDistanceBack>
+                    <OuterBackHoleDistanceBack>28</OuterBackHoleDistanceBack>
+                    <Fittings/>
+                </DrawerSlideway>
+            </KjlDrawerSlideWaySetting>
+        </TotalDrawerSlideList>
+    </TotalSetting>
+    <ConfigNameSetting>
+        <DrawerHandleName>当前配置</DrawerHandleName>
+        <DrawerSlideName>当前配置</DrawerSlideName>
+        <PantDrawerSlideName>当前配置</PantDrawerSlideName>
+        <GridDrawerSlideName>当前配置</GridDrawerSlideName>
+        <OpenDoorHandleName>当前配置</OpenDoorHandleName>
+        <OpenDoorHingeName>当前配置</OpenDoorHingeName>
+        <OpenDoorStraightName>当前配置</OpenDoorStraightName>
+    </ConfigNameSetting>
+    <QuickBarSetting>
+        <QuickBarModels>
+            <QuickBarModel>
+                <Id>104</Id>
+                <QuickBarIndex>1005</QuickBarIndex>
+                <ShowName>删除</ShowName>
+                <OriName>删除</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>105</Id>
+                <QuickBarIndex>1004</QuickBarIndex>
+                <ShowName>隐藏</ShowName>
+                <OriName>隐藏</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>106</Id>
+                <QuickBarIndex>1003</QuickBarIndex>
+                <ShowName>全部显示</ShowName>
+                <OriName>全部显示</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>113</Id>
+                <QuickBarIndex>1002</QuickBarIndex>
+                <ShowName>隐藏门板</ShowName>
+                <OriName>隐藏门板</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>109</Id>
+                <QuickBarIndex>1001</QuickBarIndex>
+                <ShowName>爆炸图</ShowName>
+                <OriName>爆炸图</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>112</Id>
+                <QuickBarIndex>1000</QuickBarIndex>
+                <ShowName>添加免拉手</ShowName>
+                <OriName>添加免拉手</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>701</Id>
+                <QuickBarIndex>1007</QuickBarIndex>
+                <ShowName>左延伸</ShowName>
+                <OriName>左延伸</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>702</Id>
+                <QuickBarIndex>1008</QuickBarIndex>
+                <ShowName>右延伸</ShowName>
+                <OriName>右延伸</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>601</Id>
+                <QuickBarIndex>103</QuickBarIndex>
+                <ShowName>添加抽屉</ShowName>
+                <OriName>添加抽屉</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>604</Id>
+                <QuickBarIndex>104</QuickBarIndex>
+                <ShowName>添加平开门</ShowName>
+                <OriName>添加平开门</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>1318</Id>
+                <QuickBarIndex>101</QuickBarIndex>
+                <ShowName>孔位修改</ShowName>
+                <OriName>孔位修改</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>901</Id>
+                <QuickBarIndex>100</QuickBarIndex>
+                <ShowName>设置孔位</ShowName>
+                <OriName>设置孔位</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>902</Id>
+                <QuickBarIndex>107</QuickBarIndex>
+                <ShowName>显隐孔位</ShowName>
+                <OriName>显隐孔位</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>110</Id>
+                <QuickBarIndex>106</QuickBarIndex>
+                <ShowName>检查分析</ShowName>
+                <OriName>检查分析</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>103</Id>
+                <QuickBarIndex>1006</QuickBarIndex>
+                <ShowName>复制</ShowName>
+                <OriName>复制</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>406</Id>
+                <QuickBarIndex>1009</QuickBarIndex>
+                <ShowName>全选门板抽面</ShowName>
+                <OriName>全选门板抽面</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>505</Id>
+                <QuickBarIndex>1010</QuickBarIndex>
+                <ShowName>测量距离</ShowName>
+                <OriName>测量距离</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>1315</Id>
+                <QuickBarIndex>1011</QuickBarIndex>
+                <ShowName>板件备注</ShowName>
+                <OriName>板件备注</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>1317</Id>
+                <QuickBarIndex>1012</QuickBarIndex>
+                <ShowName>补板</ShowName>
+                <OriName>补板</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>1220</Id>
+                <QuickBarIndex>105</QuickBarIndex>
+                <ShowName>描点成模</ShowName>
+                <OriName>描点成模</OriName>
+                <QuickBarType>0</QuickBarType>
+                <ManagerType>0</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+            <QuickBarModel>
+                <Id>1886</Id>
+                <QuickBarIndex>102</QuickBarIndex>
+                <ShowName>侧夹顶底</ShowName>
+                <OriName>侧包顶底衣柜框架</OriName>
+                <QuickBarType>1</QuickBarType>
+                <ManagerType>1019</ManagerType>
+                <MaterialType>0</MaterialType>
+                <MaterialName></MaterialName>
+            </QuickBarModel>
+        </QuickBarModels>
+    </QuickBarSetting>
 </OtherSetting>

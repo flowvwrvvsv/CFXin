@@ -33,9 +33,15 @@
         <SlotInPlateDistance>5</SlotInPlateDistance>
         <SlotBackDistance>18</SlotBackDistance>
         <ThickPlateUseSlot>false</ThickPlateUseSlot>
-        <DefaultPlateThickness>18</DefaultPlateThickness>
-        <SlotDepthIncrement>1</SlotDepthIncrement>
+        <DefaultPlateThickness>15</DefaultPlateThickness>
+        <IsOpenAutoReplaceHoleSite>false</IsOpenAutoReplaceHoleSite>
+        <AutoReplaceOriHoleSiteId>-1</AutoReplaceOriHoleSiteId>
+        <AutoReplaceOriHoleSiteName></AutoReplaceOriHoleSiteName>
+        <AutoReplaceDestHoleSiteId>-1</AutoReplaceDestHoleSiteId>
+        <AutoReplaceDestHoleSiteName></AutoReplaceDestHoleSiteName>
+        <SlotDepthIncrement>0</SlotDepthIncrement>
         <SlotWidthIncrement>0</SlotWidthIncrement>
+        <IgnoreIntelegenceHolePlateList/>
     </DrawPlateSetting>
     <WoodNogSetting>
         <IsUseWoodNog>false</IsUseWoodNog>
@@ -44,9 +50,10 @@
     </WoodNogSetting>
     <AutoSave>
         <IsAutoSave>true</IsAutoSave>
-        <AutoSaveTime>5</AutoSaveTime>
+        <AutoSaveTime>10</AutoSaveTime>
         <IsAutoBackUpData>true</IsAutoBackUpData>
         <BackUpDays>30</BackUpDays>
+        <ShowIndicateGrid>true</ShowIndicateGrid>
         <UseDoubleSidePlate>false</UseDoubleSidePlate>
         <IndependentDoorShowFast>false</IndependentDoorShowFast>
     </AutoSave>
@@ -63,23 +70,26 @@
         <IsSupportBackBrace>true</IsSupportBackBrace>
         <ThinBackHalfSlot>false</ThinBackHalfSlot>
         <ThinBackSlotWidth>[BH]/2</ThinBackSlotWidth>
-        <IsMillingSupportHole>false</IsMillingSupportHole>
+        <IsMillingSupportHole>true</IsMillingSupportHole>
         <IsMilingLineFixWidth>false</IsMilingLineFixWidth>
         <MillingLineWidthValue>0</MillingLineWidthValue>
         <IsAllowPairHole>true</IsAllowPairHole>
         <PairHoleOffsetValue>32</PairHoleOffsetValue>
         <BackUseInvisibleBanding>false</BackUseInvisibleBanding>
         <LockPanelAfterSelect>false</LockPanelAfterSelect>
+        <DoorAndDrawerNotCreateHole>false</DoorAndDrawerNotCreateHole>
+        <IntelegentHeight>1700</IntelegentHeight>
         <ReportNotCueAgain>false</ReportNotCueAgain>
+        <PriceNotCueAgain>false</PriceNotCueAgain>
         <IntersectGridHkWidth>0.4</IntersectGridHkWidth>
         <IntersectGridHkDepth>5</IntersectGridHkDepth>
-        <SelectPrintView>1,2,0,3</SelectPrintView>
+        <SelectPrintView>1,0,3,4</SelectPrintView>
         <PrintUseLogo>false</PrintUseLogo>
         <PrintQrCodeType>0</PrintQrCodeType>
         <Is3DPrintUseColor>true</Is3DPrintUseColor>
         <MinSlotDistanceValue>0</MinSlotDistanceValue>
         <ThroughSlotDistanceValue>0</ThroughSlotDistanceValue>
-        <CustomUrl>https://new8.xxyrj.com/XXYAdmin/views/QRCode/qrcode.html</CustomUrl>
+        <CustomUrl>https://ykf-weixin01.7moor.com/wapchat.html?accessId=37282700-0b8c-11ef-9eb5-1f5210b1ea2e&amp;fromUrl=&amp;urlTitle=&amp;language=ZHCN</CustomUrl>
         <ExportExcelSplitByProduct>false</ExportExcelSplitByProduct>
         <ExportMinPlateArea>0</ExportMinPlateArea>
         <ExportAreaPrecision>3</ExportAreaPrecision>
@@ -92,10 +102,18 @@
         <ExportModelType>0</ExportModelType>
         <ShowToolBarText>true</ShowToolBarText>
         <IsShowPerspectiveMode>false</IsShowPerspectiveMode>
-        <IsShowPureMode>false</IsShowPureMode>
+        <IsShowPureMode>true</IsShowPureMode>
         <CancelPhoneLoginNum>0</CancelPhoneLoginNum>
         <EachPageCount>20</EachPageCount>
+        <PointToModelMarkRatio>1</PointToModelMarkRatio>
+        <PointToModelMoveLength>50</PointToModelMoveLength>
+        <IsFirstOpenAddIn>true</IsFirstOpenAddIn>
+        <ProductPriceType>0</ProductPriceType>
+        <ProductCostPrice>0</ProductCostPrice>
+        <ProductSalePrice>0</ProductSalePrice>
+        <ProductPriceRatio>1</ProductPriceRatio>
         <CustomFieldCorredpond/>
+        <FittingFieldCorredpond/>
     </OtherSetting>
     <Banding>
         <BandingTop>1</BandingTop>
@@ -109,11 +127,11 @@
         <InvisibleBanding>1</InvisibleBanding>
     </Banding>
     <WineModel>
-        <WineType>2</WineType>
+        <WineType>4</WineType>
         <WinePlateHeight>18</WinePlateHeight>
         <WineBanding>1</WineBanding>
         <WineGridNumber>3</WineGridNumber>
-        <WineGridHeightNumber>3</WineGridHeightNumber>
+        <WineGridHeightNumber>2</WineGridHeightNumber>
         <WineBaseLength>true</WineBaseLength>
         <WineHkLength>0.5</WineHkLength>
         <WineHkWidth>1</WineHkWidth>
@@ -124,6 +142,8 @@
         <BackBraceType>1</BackBraceType>
         <IsBraceHorizon>true</IsBraceHorizon>
         <BraceCount>1</BraceCount>
+        <BackTextureType>0</BackTextureType>
+        <BraceTextureType>2</BraceTextureType>
         <BraceParams>
             <BraceParam>
                 <ParamName>板厚</ParamName>
@@ -157,18 +177,19 @@
         <SecondHolesiteName>通用方案(均分方案)</SecondHolesiteName>
     </BackBrace>
     <AngleModel>
-        <RotateAngle>-20</RotateAngle>
+        <RotateAngle>40</RotateAngle>
         <IsLengthChange>true</IsLengthChange>
         <FrontReserve>0</FrontReserve>
         <BackReserve>0</BackReserve>
     </AngleModel>
     <Color>
-        <BgColorR>202</BgColorR>
-        <BgColorG>225</BgColorG>
+        <BgColorR>255</BgColorR>
+        <BgColorG>255</BgColorG>
         <BgColorB>255</BgColorB>
-        <XxyBgColorR>202</XxyBgColorR>
-        <XxyBgColorG>225</XxyBgColorG>
-        <XxyBgColorB>255</XxyBgColorB>
+        <XxyNewBgColorR>255</XxyNewBgColorR>
+        <XxyNewBgColorG>255</XxyNewBgColorG>
+        <XxyNewBgColorB>255</XxyNewBgColorB>
+        <BgImagePath></BgImagePath>
         <SelectColorR>0</SelectColorR>
         <SelectColorG>255</SelectColorG>
         <SelectColorB>0</SelectColorB>
@@ -186,26 +207,41 @@
         <IsBackDropFront>true</IsBackDropFront>
         <IsTextureBanding>true</IsTextureBanding>
         <TailUseMilling>false</TailUseMilling>
+        <TailMillingCutTwoAngle>false</TailMillingCutTwoAngle>
         <MaterialAddMaterial>false</MaterialAddMaterial>
         <SaleReportHasColor>true</SaleReportHasColor>
         <MaterialHasGraphNum>false</MaterialHasGraphNum>
         <MaterialStaticType>false</MaterialStaticType>
+        <MaterialAddMilling>false</MaterialAddMilling>
+        <MaterialAddRemark>false</MaterialAddRemark>
+        <CostHasMaterial>false</CostHasMaterial>
         <CostHasColor>true</CostHasColor>
+        <CostAddMilling>false</CostAddMilling>
+        <CostAddRemark>false</CostAddRemark>
         <ExportSorting3DModel>false</ExportSorting3DModel>
         <ExportTotalPrice>true</ExportTotalPrice>
         <IsExportModel>true</IsExportModel>
         <ExportHardware>false</ExportHardware>
+        <HardwareSplitByProduct>true</HardwareSplitByProduct>
         <IsExportTotalDoor>true</IsExportTotalDoor>
         <TotalDoorAddRoom>false</TotalDoorAddRoom>
         <TotalDoorAddHinge>false</TotalDoorAddHinge>
         <TotalDoorAddPrice>false</TotalDoorAddPrice>
-        <TotalDoorIncludeDrawFace>false</TotalDoorIncludeDrawFace>
+        <TotalDoorAddRemark>false</TotalDoorAddRemark>
+        <TotalDoorIncludeDrawFace>true</TotalDoorIncludeDrawFace>
         <IsExportAlphaDoor>false</IsExportAlphaDoor>
         <IsExportThumbnail>true</IsExportThumbnail>
         <IsExportPlateMark>false</IsExportPlateMark>
+        <IsExportShowCabinetName>true</IsExportShowCabinetName>
+        <IsContainDoorPlate>false</IsContainDoorPlate>
         <IsContainMarkPlate>false</IsContainMarkPlate>
         <IsContainMillingPlate>false</IsContainMillingPlate>
         <IsContainSmallPlate>false</IsContainSmallPlate>
+        <SmallPlateWidth>200</SmallPlateWidth>
+        <IndenpendentDrawerPrice>false</IndenpendentDrawerPrice>
+        <IndenpendentWinePrice>false</IndenpendentWinePrice>
+        <IndenpendentDoorPrice>false</IndenpendentDoorPrice>
+        <IndenpendentMillingPrice>false</IndenpendentMillingPrice>
         <MillingSaleRatio>1</MillingSaleRatio>
     </Color>
     <PlateNameList>
@@ -238,28 +274,65 @@
         <Name></Name>
         <Password></Password>
         <PhoneNumber>LSQ6MTE1OzImLyo=</PhoneNumber>
-        <PhoneEncryptCode>eWVAamNHamlZdFRIRWZObkF6UDsvZX5aeHg4VnhfdEJ3bklDfWVob3pdJU82aGk/eX1xTmNla1pzQzY7ZFJ0fW9mWUswT3d3dEx7U3NdWUVzRXtYZVxPWX1kVmBzRWtTP0Z9e2RTKFM5VlM8Jk5MXiNNRFk0W2dlYkRcWWlNVTw1S09XNFlTTGZEV18/VEtcdUBCW2ZgVUJ4RHRJM0FSUyVEdG8zVEhIbldDTiF4OV5vRXlnPU5yXmVgMzVlVHhLalh9SmJfZnxzT1VncF1yWjpWe1lqRXJbaF1JTGNiW3VnW0VDJkN6eyhSY2w0WXxPNUxDUm5DaFViaG1ucXphZnFMSFkrSW07IVFMUXhedTB2R05DMlZZXmNdd1NuU0lFY0V9V3J2QFB5R2pEdUleLXtKbUEyb0VbLUtTY39LcFJ3S2FDZEQvPC9VejJ3Mlk5L2l3Zk5AajxsYENoTFRIcGpVfCtvUUxPQXVMamxNZHQzSE9tZF9bSXNWYnhPQFNJWVJEVEooWkh9JVVRd1Nqc2tFSnlhQFBya1BnZWFWaw==</PhoneEncryptCode>
+        <PhoneEncryptCode>eWVAamNHamlZdFRIRWZObkF6UDsvZX5aeHg4VnhfdEJ3bklDfWVob3pdJU82aGk/eX1xTmNla1pzQzY7ZFJ0fW9mWUswT3d3dEx7X3Jed1k0RntMKlxPWX1kVmBzRWtTO0VDd2pTcFRhVUM8IE9fQiVNRFk1T1ltYlJMSnlZRTwySE9Mb01tVGNSemE4QFtcdUBCW2ZgVUJ4RHRJM0FSUyVEdG8zVEhIbldDTiF4OV5vRXlnPU5yXmVgMzVlVHhLalh9SmJfZnxzT1VncF1yWjpWe1lqRXJbaF1JTGNiW3VnW0VDJkN6eyhSY2w0WXxPNUxDUm5DaFViaG1ucXphZnFMSFkrSW07IVFMUXhedTB2R05DMlZZXmNdd1NuU0lFY0V9V3J2QFB5R2pEdUleLXtKbUEyb0VbLUtTY35IXkIxSGFTLEZEPC9oUzdqSkRtLk1tSXJwZUkvfzNoVHQwfkZWaHVEO3xmUFN8T01IZjdVY0ZZWyxLQ1VIcEFNclxsZDZ9eW94TX1rSFd7T2lnVnJjfWZ5I0ZtZ0ghW3Jzaw==</PhoneEncryptCode>
         <RemoteServerFolder></RemoteServerFolder>
         <RemoteDogId></RemoteDogId>
         <WebUserName></WebUserName>
         <WebUserPassword></WebUserPassword>
+        <UseDaGuanJiaInterface>false</UseDaGuanJiaInterface>
+        <DaGuanJiaUserName></DaGuanJiaUserName>
+        <DaGuanJiaPassword></DaGuanJiaPassword>
+        <DaGuanJiaCode></DaGuanJiaCode>
     </User>
     <Room>
         <RoomName>卧室</RoomName>
-        <Length>4530</Length>
+        <Length>5000</Length>
         <Width>4000</Width>
-        <Height>2400</Height>
+        <Height>3100</Height>
         <ShowLeft>true</ShowLeft>
         <ShowRight>true</ShowRight>
         <ShowFloor>true</ShowFloor>
-        <ShowRoof>false</ShowRoof>
+        <ShowRoof>true</ShowRoof>
         <ShowFront>false</ShowFront>
         <ShowBack>true</ShowBack>
-        <ShowTranspricy>0</ShowTranspricy>
-        <WallTexture>#FFFFFF</WallTexture>
-        <FloorTexture>#FFDAB9</FloorTexture>
-        <RoofTexture>0e4c8667fef042168dd6a57838ff0d5b.jpg</RoofTexture>
+        <ShowTranspricy>0.02</ShowTranspricy>
+        <NewWallTexture>#FFFFFF</NewWallTexture>
+        <NewFloorTexture>saveFile/floor.jpg</NewFloorTexture>
+        <NewRoofTexture>#FFFFFF</NewRoofTexture>
         <WallThickness>200</WallThickness>
+        <IsFirstInitRoomModel>false</IsFirstInitRoomModel>
+        <RoomWindowWidth>2100</RoomWindowWidth>
+        <RoomWindowHeight>1600</RoomWindowHeight>
+        <RoomWindowTexture>saveFile/window.jpg</RoomWindowTexture>
+        <RoomDoorWidth>1000</RoomDoorWidth>
+        <RoomDoorHeight>2200</RoomDoorHeight>
+        <RoomDoorTexture>saveFile/door.jpg</RoomDoorTexture>
+        <Elements>
+            <Element>
+                <ElementID>0</ElementID>
+                <ElementType>3</ElementType>
+                <StartX>3500</StartX>
+                <StartY>50</StartY>
+                <StartZ>0</StartZ>
+                <EndX>4500</EndX>
+                <EndY>150</EndY>
+                <EndZ>2200</EndZ>
+                <ImagePath>saveFile/door.jpg</ImagePath>
+                <Direction>6</Direction>
+            </Element>
+            <Element>
+                <ElementID>1</ElementID>
+                <ElementType>2</ElementType>
+                <StartX>-101</StartX>
+                <StartY>-950</StartY>
+                <StartZ>750</StartZ>
+                <EndX>-99</EndX>
+                <EndY>-3050</EndY>
+                <EndZ>2350</EndZ>
+                <ImagePath>saveFile/window.jpg</ImagePath>
+                <Direction>1</Direction>
+            </Element>
+        </Elements>
         <Light>
             <SubLight Type="0" Color="#FFFFFF"/>
         </Light>
@@ -287,6 +360,12 @@
         <PureModeShow>true</PureModeShow>
         <AssistToolBarShow>true</AssistToolBarShow>
         <FormatPlateShow>true</FormatPlateShow>
+        <QuickBarSettingShow>true</QuickBarSettingShow>
+        <CadOperaateShow>true</CadOperaateShow>
+        <StartStopShow>true</StartStopShow>
+        <IndenpendentPriceShow>false</IndenpendentPriceShow>
+        <UseAltStartQuickBar>true</UseAltStartQuickBar>
+        <IntelegentHoleFaceShow>true</IntelegentHoleFaceShow>
         <XxyEditComponentShow>true</XxyEditComponentShow>
         <XxyShowAllShow>false</XxyShowAllShow>
         <XxyHideSelectShow>true</XxyHideSelectShow>
@@ -294,9 +373,13 @@
         <XxyDrawMillingShow>false</XxyDrawMillingShow>
         <XxyMillingShow>false</XxyMillingShow>
     </ShowComponent>
+    <DefaultComponentParam>
+        <UseDefaultComponentParam>false</UseDefaultComponentParam>
+        <ParamLists/>
+    </DefaultComponentParam>
     <AnalysisDialogSetting>
-        <AnalysisDialogWidth>763</AnalysisDialogWidth>
-        <AnalysisDialogHeight>495</AnalysisDialogHeight>
+        <AnalysisDialogWidth>687</AnalysisDialogWidth>
+        <AnalysisDialogHeight>635</AnalysisDialogHeight>
         <HideZeroPlate>true</HideZeroPlate>
         <HideContactNotHaveHole>true</HideContactNotHaveHole>
         <HideContactHasGap>true</HideContactHasGap>
